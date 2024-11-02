@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/rancher/fleet-agent:v0.9.5 docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/fleet-agent:v0.9.5
+        skopeo copy docker://docker.io/anapsix/alpine-java:8_server-jre_unlimited docker://registry.cn-hangzhou.aliyuncs.com/aierlong/anapsix/alpine-java:8_server-jre_unlimited
